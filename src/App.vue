@@ -2,11 +2,12 @@
 	<div id='app'>
 		<div class="app1">
 	    <v-header></v-header>
-	    <v-slide></v-slide>
+	    <v-slide></v-slide>	    
 	    <v-bus></v-bus>
 	    <v-fun></v-fun>
 	    <v-other></v-other>
 	    <v-footer></v-footer>
+
 	  </div>
   </div>
 </template>
@@ -18,6 +19,8 @@
 	import fun from './components/content/fun/fun.vue'
 	import footer from './components/footer/footer.vue'	
 	import other from './components/content/other/other.vue'
+	
+	
 	export default {
 	  name: 'app',
 	  components:{
